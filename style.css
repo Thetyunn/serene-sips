@@ -1,39 +1,10 @@
-body {
-  margin: 0%;
-  padding: 0%;
+* {
   background-color: #f0e2c5;
   color: #49281a;
-  font-family: "Lato", sans-serif;
 }
-
-.head {
+h1 {
   font-family: "Playfair Display SC", serif;
-  text-align: center;
 }
-.para {
+p {
   font-family: "Lato", sans-serif;
-  text-align: center;
-}
-.btn {
-  color: #fff;
-  background-color: #49281a;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.button {
-  color: #fff;
-  background-color: #49281a;
-  margin-left: 10%;
-}
-nav a {
-  color: #49281a;
-}
-nav {
-  text-align: center;
 }
