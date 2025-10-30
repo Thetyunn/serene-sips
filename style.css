@@ -11,7 +11,7 @@ html {
 }
 /*header section*/
 header {
-  border: 2px solid black;
+  /* border: 2px solid black;*/
   text-align: center;
   padding: 100px;
 }
@@ -37,7 +37,7 @@ header a {
 }
 /*nav section*/
 nav {
-  border: 2px solid black;
+  /* border: 2px solid black;*/
   font-family: "Lato", sans-serif;
   font-size: 1.2rem;
   text-align: center;
@@ -97,8 +97,8 @@ form div {
 }
 .form-control {
   width: 300px;
-  bottom: none;
-  overflow: none;
+  border: none;
+  outline: none;
   border-bottom: 1px dotted #49281a;
 }
 .btn-submit {
@@ -117,4 +117,60 @@ footer {
   text-align: center;
   font-family: "Lato", sans-serif;
   padding: 10px 0;
+}
+.card {
+  border: 2px solid black;
+  width: 300px;
+  background-color: wheat;
+  padding: 20px;
+  border-radius: 9px;
+}
+.card-img-top {
+  max-width: 100%;
+  border-radius: 9px;
+}
+.card-body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-text {
+  line-height: 1.5;
+}
+.btn-order {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #49281a;
+  text-decoration: none;
+  color: white;
+  border-radius: 9px;
+}
+.card {
+  border: 2px solid black;
+  width: 300px;
+  background-color: wheat;
+  padding: 20px;
+  border-radius: 9px;
+}
+.card-img-top {
+  max-width: 100%;
+  border-radius: 9px;
+}
+.card-body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-text {
+  line-height: 1.5;
+}
+.btn-order {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #49281a;
+  text-decoration: none;
+  color: white;
+  border-radius: 9px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
 }
