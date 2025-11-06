@@ -169,6 +169,8 @@ footer {
   text-decoration: none;
   color: white;
   border-radius: 9px;
+  display: block;
+  height: 40px;
 }
 .card-container {
   display: flex;
