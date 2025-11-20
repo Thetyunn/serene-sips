@@ -3,8 +3,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #f0e2c5;
-  color: #49281a;
+  background-color: #9caf88;
+  color: #2e2e2e;
 }
 html {
   scroll-behavior: smooth;
@@ -14,7 +14,15 @@ header {
   /* border: 2px solid black;*/
   text-align: center;
   padding: 100px;
+  background-image: url(images/interior-shot-cafe-with-chairs-near-bar-with-wooden-tables.jpg);
+  background-size: cover;
 }
+.head,
+.para {
+  background-color: transparent;
+  color: #3aa102;
+}
+
 header h1 {
   font-family: "Playfair Display SC", serif;
   font-size: 3rem;
@@ -30,8 +38,8 @@ header a {
   font-size: 1.2rem;
   text-align: center;
   text-decoration: none;
-  background-color: #49281a;
-  color: #f0e2c5;
+  background-color: #2e2e2e;
+  color: #9caf88;
   padding: 15px 30px;
   border-radius: 10px;
 }
@@ -46,8 +54,8 @@ nav {
   top: 50px;
 }
 nav a {
-  background-color: #49281a;
-  color: #f0e2c5;
+  background-color: #2e2e2e;
+  color: #9caf88;
   text-decoration: none;
   margin-right: 20px;
   display: inline-block;
@@ -66,6 +74,28 @@ footer {
   margin: 20px auto;
 }
 #our-menu h2,
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  border: 2px solid #2e2e2e;
+  width: 300px;
+  background-color: #9CAF88t;
+  padding: 20px;
+  border-radius: 9px;
+}
+.card-img-top {
+  max-width: 100%;
+  border-radius: 9px;
+}
+.card-body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-text {
+  line-height: 1.5;
+}
 #about-us h2,
 #contact h2 {
   font-family: "Playfair Display SC", serif;
@@ -101,11 +131,11 @@ form div {
   width: 300px;
   border: none;
   outline: none;
-  border-bottom: 1px dotted #49281a;
+  border-bottom: 1px dotted #2e2e2e;
 }
 .btn-submit {
-  background-color: #49281a;
-  color: #f0e2c5;
+  background-color: #2e2e2e;
+  color: #9caf88;
   font-family: "Lato", sans-serif;
   width: 200px;
   height: 50px;
@@ -120,64 +150,27 @@ footer {
   font-family: "Lato", sans-serif;
   padding: 10px 0;
 }
-.card {
-  border: 2px solid black;
-  width: 300px;
-  background-color: wheat;
-  padding: 20px;
-  border-radius: 9px;
-}
-.card-img-top {
-  max-width: 100%;
-  border-radius: 9px;
-}
-.card-body {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.card-text {
-  line-height: 1.5;
-}
+
 .btn-order {
   margin-bottom: 5px;
   padding: 5px;
-  background-color: #49281a;
+  background-color: #2e2e2e;
   text-decoration: none;
-  color: white;
+  color: #9caf88;
   border-radius: 9px;
 }
-.card {
-  border: 2px solid black;
-  width: 300px;
-  background-color: wheat;
-  padding: 20px;
-  border-radius: 9px;
-}
-.card-img-top {
-  max-width: 100%;
-  border-radius: 9px;
-}
-.card-body {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.card-text {
-  line-height: 1.5;
-}
+
 .btn-order {
   margin-bottom: 10px;
   padding: 5px;
-  background-color: #49281a;
+  background-color: #2e2e2e;
   text-decoration: none;
-  color: white;
+  color: #9caf88;
   border-radius: 9px;
   display: block;
   height: 40px;
 }
-.card-container {
-  display: flex;
-  justify-content: center;
-}
+
 .card:hover {
   transform: scale(1.2);
   z-index: 10;
