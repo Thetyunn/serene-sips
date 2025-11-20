@@ -170,8 +170,3 @@ footer {
   display: block;
   height: 40px;
 }
-
-.card:hover {
-  transform: scale(1.2);
-  z-index: 10;
-}
